@@ -7,7 +7,7 @@ let typewriter = new Typewriter(app, {
  
 typewriter
   .pauseFor(2500)
-  .typeString('Estudié ingeniería química.')
+  .typeString('<span style="color: #eb5e7f;">Estudié ingeniería química.</span>')
   .pauseFor(200)
   .deleteChars(10)
   .start();
